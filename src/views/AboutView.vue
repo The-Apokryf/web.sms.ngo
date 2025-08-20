@@ -2,9 +2,9 @@
 import { onMounted } from "vue";
 
 onMounted(() => {
-  document.title = "Więcej o śląskiej przestrzeni warsztatów twórczych - Śląski Maker Space (www.sms.ngo)"
-})
-
+	document.title =
+		"Więcej o śląskiej przestrzeni warsztatów twórczych - Śląski Maker Space (www.sms.ngo)";
+});
 </script>
 
 <template>

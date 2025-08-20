@@ -1,10 +1,10 @@
 <script setup>
 import { onMounted } from "vue";
-import { RouterLink } from 'vue-router'
+import { RouterLink } from "vue-router";
 onMounted(() => {
-  document.title = "Kontakt z przedstawicielami frakcji warsztatowych - Śląski Maker Space (www.sms.ngo)"
-})
-
+	document.title =
+		"Kontakt z przedstawicielami frakcji warsztatowych - Śląski Maker Space (www.sms.ngo)";
+});
 </script>
 
 <template>

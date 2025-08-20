@@ -1,11 +1,7 @@
 <script setup>
-
 const iconChar = [
-  "&#x1F5E1;" //
+	"&#x1F5E1;", //
 ];
-
-
-
 </script>
 
 <template>
