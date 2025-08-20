@@ -3,9 +3,26 @@
 version: '3'
 
 vars:
-  GREETING: Hello, World!
+  GREETING: 
 
 tasks:
+
+  release:
+    deps: [build]
+    summary: |
+      Release your project to github
+
+      It will build your project before starting the release.
+      Please make sure that you have set GITHUB_TOKEN before starting.
+    cmds:
+      - npm install
+      - npm run build
+      - npx biome check . --apply
+
+  build:
+    cmds:
+      - your-build-tool
+
   default:
     cmds:
       - echo "{{.GREETING}}"
