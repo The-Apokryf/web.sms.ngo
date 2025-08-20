@@ -1,10 +1,8 @@
 <script setup>
-
 const iconChar = [
-  "&#x1F333;", //
-  "&#9035;" //
+	"&#x1F333;", //
+	"&#9035;", //
 ];
-
 </script>
 
 <template>

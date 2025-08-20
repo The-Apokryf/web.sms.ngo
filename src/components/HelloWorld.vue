@@ -1,11 +1,11 @@
 <script setup>
-import { RouterLink } from 'vue-router'
+import { RouterLink } from "vue-router";
 defineProps({
-  msg: {
-    type: String,
-    required: true,
-  },
-})
+	msg: {
+		type: String,
+		required: true,
+	},
+});
 </script>
 
 <template>

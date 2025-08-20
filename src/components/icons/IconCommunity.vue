@@ -1,12 +1,10 @@
 
 <script setup>
-
 const iconChar = [
-  "&#x1F47E;",//
-  "&#x1F916;",//
-  "&#x1F9BE;"//
+	"&#x1F47E;", //
+	"&#x1F916;", //
+	"&#x1F9BE;", //
 ];
-
 </script>
 
 <template>
